@@ -1,0 +1,65 @@
+.black {
+  position: fixed; /* Fixe la section en place */
+  top: 0;
+  right: 0;
+  width: 25%; /* Prend un quart de la largeur de la page */
+  height: 100%; /* Prend toute la hauteur de la page */
+  background-color: black; /* Fond noir */
+  color: white; /* Texte en blanc pour contraste */
+  padding: 20px; /* Ajout de padding pour l'esthétique */
+}
+
+.black h2, .black h3, .black p {
+  margin: 0 0 10px 0; /* Espacement entre les éléments */
+}
+
+/* Encadrement orange pour Contact Me et Pro Skills */
+#H1, #H2 {
+  border: 2px solid orange; /* Trait orange */
+  padding: 10px; /* Espacement interne */
+  margin-bottom: 20px; /* Espacement en bas */
+  text-align: center;
+}
+
+.skill-bar-container {
+  margin: 10px 0; /* Espacement entre les barres */
+}
+
+.skill-title {
+  margin-bottom: 5px; /* Espacement entre le texte et la barre */
+  text-align: center;
+}
+
+.skill-bar {
+  background-color: black; /* Fond noir */
+  border: 2px solid orange; /* Contours orange */
+  
+  overflow: hidden; /* Masquer les débordements */
+  position: relative; /* Position relative pour la barre */
+}
+
+.skill-level {
+  background-color: orange; /* Couleur de la barre de compétence */
+  height: 20px; /* Hauteur de la barre */
+  color: white; /* Couleur du texte */
+  text-align: right; /* Aligner le texte à droite */
+  padding-right: 10px; /* Espacement à droite du texte */
+  position: relative; /* Position relative pour la barre */
+}
+
+/* Largeurs spécifiques pour chaque niveau de compétence */
+.skill-illustrator {
+  width: 85%;
+}
+
+.skill-photoshop {
+  width: 70%;
+}
+
+.skill-webdesign {
+  width: 75%;
+}
+
+.skill-msword {
+  width: 90%;
+}
